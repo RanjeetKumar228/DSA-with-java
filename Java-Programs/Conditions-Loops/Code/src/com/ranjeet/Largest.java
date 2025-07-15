@@ -1,4 +1,4 @@
 package com.ranjeet;
 
-public class ranjeet {
+public class Largest {
 }
