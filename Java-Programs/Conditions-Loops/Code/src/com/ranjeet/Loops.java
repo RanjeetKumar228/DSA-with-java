@@ -63,7 +63,7 @@ public class Loops {
                 You need to run for loop When we know how many times the loops is going to run
 
              */
-        
+
 
          /*
             Syntax of do while loop
