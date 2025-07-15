@@ -45,6 +45,6 @@ public class TypeCasting {
         System.out.println(((f * b) + " " + (i / c) + " " + (d * s)));
         // float + int + decimal = decimal
         System.out.println(result);
-        
+
     }
 }
