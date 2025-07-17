@@ -16,11 +16,8 @@ public class AlphabetCheckCase {
         if (alph >= 'a' && alph <= 'z'){
             System.out.println("lower case");
         }
-        if (alph >= 'A' && alph <= 'Z'){
-            System.out.println("upper case");
-        }
         else {
-            System.out.println("Please enter only alphabet");
+            System.out.println("upper case");
         }
     }
 }
