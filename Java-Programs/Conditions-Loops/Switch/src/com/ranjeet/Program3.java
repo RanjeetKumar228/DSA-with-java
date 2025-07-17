@@ -23,6 +23,7 @@ public class Program3 {
 //                System.out.println("Please enter  1 to 7");
 //        }
 
+
         // Enhanced, looks better
 
         switch (day) {
