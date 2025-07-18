@@ -19,7 +19,6 @@ public class SWT {
         String name = "Jeet";
     }
 
-
     static void swap(int a, int b){
         // Swap the number
 
