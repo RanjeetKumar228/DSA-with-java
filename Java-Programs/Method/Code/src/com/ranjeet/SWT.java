@@ -16,7 +16,7 @@ public class SWT {
     }
 
     static  void changeName (String namm){
-        String name = "Jeet";
+        String name = "Jeet"; // creating a new object
     }
 
     static void swap(int a, int b){
@@ -25,5 +25,7 @@ public class SWT {
         int temp = a;
         a = b;
         b = temp;
+
+        // this change will only be valid in this function scope only
     }
 }
