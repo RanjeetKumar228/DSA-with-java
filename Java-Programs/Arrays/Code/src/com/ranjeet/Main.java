@@ -1,6 +1,8 @@
 package com.ranjeet;
 
-public class demo {
+import java.util.EnumMap;
+
+public class Main {
     public static void main(String[] args) {
 
         // Q: Store a rollNumber
@@ -24,19 +26,29 @@ public class demo {
 
         int[] rolls = new int[5];
         // or directly
-        int[] rolls2 = {45,53,66,43,76,53,74};
+        int[] rolls2 = {45,53,66,43,76};
 
-        int[] rols; // declaration of array. rols ia getting in the stack
-        rols = new int[7]; // Initialisat actually here object is being created in memory (heap)
+        int[] rolls3; // declaration of array. rolls3 ia getting in the stack
+        rolls3 = new int[7]; // Initialise actually here object is being created in memory (heap)
+//      System.out.println(rolls3[1]);
+
+
+        String[] arr = new String[5];
+        System.out.println(arr[4]);
+
+          String arrrs = null;
+//        int num = null;     // Show error
+
     }
 }
 
 /*
                                 What is an array
 
-                An array is basically collection of data type it can be primitive,object,complex datatype.
+         An array is basically collection of data type it can be neither primitive,object,complex datatype.
+
                                     _______________________
-                    int[] rools2 = |{45,53,66,43,76,53,74};|
+                    int[] marks = |{45,53,66,43,76,53,74};|
                        |           |_______________________|
                        |               /
                        |              /
