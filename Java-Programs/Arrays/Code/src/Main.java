@@ -31,9 +31,12 @@ public class Main {
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 98246807cec9368f3bafddac4789b71fa7420fc2
     }
 }
 
@@ -51,4 +54,8 @@ first point :      this datatype basically represent
 
 second point :   All the type of the data inside array should be same ,don't be mix match.
 
+<<<<<<< HEAD
  */
+=======
+ */
+>>>>>>> 98246807cec9368f3bafddac4789b71fa7420fc2
