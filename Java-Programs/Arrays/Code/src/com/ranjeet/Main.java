@@ -23,7 +23,6 @@ public class Main {
         // datatype[] variable_name = new datatype[size];
 
         // Store five rollNumber
-
         int[] rolls = new int[5];
         // or directly
         int[] rolls2 = {45,53,66,43,76};
