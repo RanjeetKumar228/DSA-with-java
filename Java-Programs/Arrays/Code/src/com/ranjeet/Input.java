@@ -18,11 +18,11 @@ public class Input {
         //internally store like this
 //            System.out.println(arr[5]);
 
-        //input using for loop
-//        for (int i = 0; i < arr.length ; i++) {
-//             arr[i] = in.nextInt();
-//        }
-//        System.out.println(Arrays.toString(arr));
+//      input using for loop
+        for (int i = 0; i < arr.length ; i++) {
+             arr[i] = in.nextInt();
+        }
+        System.out.println(Arrays.toString(arr));
 
 //        for (int i = 0; i < arr.length ; i++) {
 //            System.out.print(arr[i] + " ");
@@ -53,7 +53,7 @@ public class Input {
 
 
 //      modify
-        name[1] = "Ranjet";
+        name[1] = "Ranjeet";
         System.out.println(Arrays.toString(name));
     }
 }
