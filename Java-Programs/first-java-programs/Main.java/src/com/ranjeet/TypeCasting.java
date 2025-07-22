@@ -10,7 +10,7 @@ public class TypeCasting {
         // int a = (int)(input.nextFloat());
         // System.out.println(a);
 
-        // int a = (float)(13.53);  // Not possible , because of density of type is always greater then source type
+        // int a = (float)(13.53);  // Not possible , because of density of type should be greater than source type
 
 
         // automatic type promotion in expressions
