@@ -13,9 +13,7 @@ public class Primitives {
 //        boolean check = true;
 
 
-
-
         // Non primitive
-        // stringt = "Ranjeet";
+        // string = "Ranjeet";
     }
 }
