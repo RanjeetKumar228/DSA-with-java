@@ -7,7 +7,7 @@ public class Temperature {
         System.out.println("Temperature Checking in Celsius to fahrenheit");
         System.out.println("*********************************************");
         System.out.println(" ");
-        System.out.print("Please Enter Temp in C : ");
+        System.out.print("Please Enter Temperature in C : ");
         Scanner input = new Scanner(System.in);
         float tempC = input.nextFloat();
 
