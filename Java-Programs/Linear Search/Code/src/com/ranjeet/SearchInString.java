@@ -10,6 +10,8 @@ public class SearchInString {
         System.out.println(Arrays.toString(name.toCharArray()));
     }
 
+    // By for each loop
+
     static boolean searchString2 (String str, char target) {
         if (str.isEmpty()) {
             return false;
@@ -21,6 +23,7 @@ public class SearchInString {
         }
         return false;
     }
+/*********************************************************************************************************************/
 
     //Search target and return true or false
 
