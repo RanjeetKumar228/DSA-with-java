@@ -11,9 +11,9 @@ public class FindMin {
     //return the minimum array
     static int min (int arr[]) {
         int ans = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < ans) {
-               ans = arr[i];
+        for (int index = 0; index < arr.length; index++) {
+            if (arr[index] < ans) {
+               ans = arr[index];
             }
         }
         return ans;
