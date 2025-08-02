@@ -2,6 +2,7 @@ public class RotatedArray {
     public static void main(String[] args) {
         int[] nums = {4,5,6,7,0,1,2};
         int target = 0;
+        System.out.println(search(nums,target));
 
     }
     static int search(int[] nums, int target){
@@ -9,13 +10,17 @@ public class RotatedArray {
 
         // if you did not find pivot, that mean array is not rotated
         if(pivot == -1){
-            return BinarySearch(nums,target,0, nums.length) -1;
+            return BinarySearch(nums,target,0, nums.length -1) ;
         }
 
         // if pivot is found, you have found 2 asc sorted array
         if(nums[pivot] == target){
             return pivot;
         }
+        if (target >= nums[0]) {
+            return BinarySearch(nums,target,0,pivot - 1);
+        }
+        return BinarySearch(nums,target,pivot + 1, nums.length-1);
     }
     static int FindPivot(int[] arr) {
         int start = 0;
@@ -26,7 +31,7 @@ public class RotatedArray {
             if(mid < end && arr[mid] > arr[mid + 1]){
                 return mid;
             }
-            if(mid < end && arr[mid] < arr[mid - 1]){
+            if(mid > start && arr[mid] < arr[mid - 1]){
                 return mid-1;
             }
             if(arr[mid] <= arr[start]){
