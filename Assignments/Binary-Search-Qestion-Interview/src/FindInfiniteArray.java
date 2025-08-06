@@ -30,6 +30,6 @@ public class FindInfiniteArray {
                 return mid;
             }
         }
-        return start;
+        return -1;
     }
 }
