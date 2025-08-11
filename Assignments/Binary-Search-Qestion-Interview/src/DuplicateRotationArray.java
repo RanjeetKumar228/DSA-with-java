@@ -29,7 +29,7 @@ public class DuplicateRotationArray {
             if (mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
             }
-            // if element at mid, start, end are equal than skill the duplicate element
+            // if element at mid, start, end are equal than skip the duplicate element
 
             if(arr[mid] == arr[start] && arr[mid] == arr[end]){
                 // check start element is pivot or not
@@ -47,7 +47,7 @@ public class DuplicateRotationArray {
                 end = mid - 1;
             }
             else {
-                start = start + 1;
+                start = mid + 1;
             }
         }
         return -1;
