@@ -1,6 +1,7 @@
 package com.ranjeet;
+import java.util.Arrays;
 
-public class SelectionSort1 {
+public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {-32,2,0,44,4,0};
         insertionSort(arr);
