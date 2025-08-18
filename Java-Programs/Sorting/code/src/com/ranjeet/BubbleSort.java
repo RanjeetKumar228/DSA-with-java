@@ -1,17 +1,27 @@
 package com.ranjeet;
+import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class BubbleSort {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        int[] arr = {1,2,3,4,5,6};
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+    static void bubbleSort(int[] arr){
+        boolean swap;
+        // outer loop
+        for(int i = 0; i < arr.length; i++){
+            swap = false;
+            // inner loop
+            for (int j = 1; j < arr.length - i ; j++) {
+                if (arr[j] < arr[j - 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
+                    swap = true;
+                }
+            }
+            if(!swap) break;
         }
     }
 }
