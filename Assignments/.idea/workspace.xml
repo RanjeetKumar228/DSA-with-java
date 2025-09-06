@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fbfd6b-fb66-4813-936e-0a0a69fdd286" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java-practices-que/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practices-que/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practices-que/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practices-que/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practices-que/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practices-que/java-practices-que.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practices-que/src/com/ranjeet/InputOutputProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/DSA+Java/Assignments"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DSA+Java/Assignments&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="52fbfd6b-fb66-4813-936e-0a0a69fdd286" name="Changes" comment="" />
